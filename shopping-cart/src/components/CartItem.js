@@ -1,4 +1,5 @@
 import React from 'react';
+import '../css/CartItem.css';
 
 function CartItem({ id, name, price, qty, updateQty }) {
     const addOne = () => updateQty(id, qty + 1)
